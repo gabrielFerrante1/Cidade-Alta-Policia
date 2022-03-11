@@ -13,8 +13,7 @@ import { Api } from '../services/Api';
 
 //Components --Mui
 import { Button } from '@mui/material'; 
-import { Alert } from '../components/Alert';
-import { useNavigate } from 'react-router-dom';
+import { Alert } from '../components/Alert'; 
  
 
 //Styleds Components
@@ -50,8 +49,7 @@ const CardFooter = styled.div`
 
 export const Login = () => {
     //Reducer user 
-    const dispatch = useDispatch(); 
-    const nav = useNavigate();
+    const dispatch = useDispatch();  
 
     //States 
     const [inputValueName, setInputValueName] = useState('');
