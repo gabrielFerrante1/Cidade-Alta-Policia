@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+/*Component --Login*/
+.title--login {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(1, 4, 184);
+}
+
+.labels--login { 
+    font-family: 'Nunito', sans-serif;
+    color: rgb(76, 76, 78);
+}
+
+.inputs--login {
+    display: block;
+    margin-top: 5px;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 96%;
+    background: none;
+    outline: none;
+}
+
+.inputs--login:focus {
+    border-color: blue;
+} 

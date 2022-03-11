@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+/*Page --Home*/
+#table--all--codes thead {
+    border: none;
+    border-bottom: 1px solid rgb(204, 203, 203);  
+}
+
+#button--new--code { 
+   padding: 6px;
+   border: 2px solid rgb(4, 113, 238);
+   background: none;
+   border-radius: 7px;
+   margin-left: 15px;
+   width: 90%;
+   transition: all 0.3s;
+}
+
+#button--new--code:hover {
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+
+/*Page --OneCode*/
+#one--code {
+    padding: 0px 10px;
+}
+
+.one--code--title {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0, 68, 255);
+}
+
+.one--code--content {
+    display: flex; 
+}
+
+.one--code--subtitle {
+    margin:0.5px 0 0 7px; 
+}
